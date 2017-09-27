@@ -5,25 +5,6 @@ For Laravel 4, please refer to this notes. [Click Here](https://github.com/mgufr
 
 Laravel 5 - Simple package for WHMCS external API.
 
-Installation
-============
-
-Run this to install on your current project
-
-	$ composer require gufy/whmcs:~2
-
-Or you can add this package to your composer.json file:
-
-
-	"require": {
-		"gufy/whmcs": "~2"
-	}
-
-
-Use composer to install this package.
-
-	$ composer update
-
 Configuration
 =============
 

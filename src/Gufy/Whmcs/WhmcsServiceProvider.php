@@ -29,11 +29,10 @@ class WhmcsServiceProvider extends ServiceProvider {
 	public function register()
 	{
 
-		$this->app['Whmcs'] = $this->app->share(function() {
-
-			return new Whmcs();
-
-		});
+		$this->app->singleton('Whmcs', function() 
+        {
+            return new Whmcs();
+        });
 
 		$this->app->booting(function() {
 
