@@ -1,5 +1,5 @@
 {
-    "name": "gufy/whmcs",
+    "name": "akkyoh/whmcs",
     "description": "WHMCS API for Laravel 5",
     "keywords": ["Whmcs", "API", "laravel", "php"],
     "homepage": "https://github.com/mgufrone/whmcs-api.git",
